@@ -23,14 +23,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ForgotPasswordActivity" />
-        <activity android:name=".SignUpActivity" />
-<!--        <activity android:name=".LoginActivity" />-->
-<!--        <activity-->
-<!--            android:name=".ui.login.LoginActivity"-->
-<!--            android:label="@string/title_activity_login" />-->
+        <activity android:name=".otpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangeActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+
+
     </application>
 
 </manifest>

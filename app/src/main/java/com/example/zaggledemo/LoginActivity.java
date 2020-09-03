@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
@@ -19,10 +18,12 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void forgotPassword(View view){
-        Intent intent=new Intent(LoginActivity.this,ForgotPasswordActivity.class);
+        Intent intent=new Intent(LoginActivity.this,otpActivity.class);
         startActivity(intent);
     }
     public void loginClick(View view){
+        Intent i=new Intent(LoginActivity.this,HomeActivity.class);
+        startActivity(i);
         String name=username.getText().toString();
         String pass=password.getText().toString();
         Log.i("Username:",name);
