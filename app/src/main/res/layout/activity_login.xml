@@ -50,7 +50,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="640dp"
         android:backgroundTint="#F40606"
-        android:enabled="false"
+        android:enabled="true"
         android:gravity="center"
         android:onClick="loginClick"
         android:outlineAmbientShadowColor="#F60808"
