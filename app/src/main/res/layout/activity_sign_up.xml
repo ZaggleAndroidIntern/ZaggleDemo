@@ -94,13 +94,13 @@
 
     <Button
         android:id="@+id/buttonSignUp"
+
         android:layout_width="304dp"
         android:layout_height="46dp"
         android:layout_marginStart="54dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/colorPrimary"
-        android:onClick="forgot"
         android:shadowColor="@color/colorPrimary"
         android:text="Sign Up"
         android:textColor="#F6F5F5"
@@ -115,11 +115,12 @@
         android:layout_height="20dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="12dp"
+        android:layout_marginBottom="131dp"
         android:text="Have an account already?"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
 
-    <Button
+    <TextView
         android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -132,7 +133,7 @@
         android:text="Login"
         android:textColor="@color/colorPrimary"
         android:textColorLink="@color/colorPrimary"
-        app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
